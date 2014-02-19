@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Janusz Chudzynski. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AnotherViewController.h"
 
-@interface ViewController ()
+@interface AnotherViewController ()
 
 @end
 
-@implementation ViewController
+@implementation AnotherViewController
 
 
 -(instancetype)init{

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6C2E7B18B5141C007EE5F4 /* AnotherViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 4F6C2E7A18B5141C007EE5F4 /* AnotherViewController.h */; };
+		4F6C2E7D18B51441007EE5F4 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C2E7C18B51441007EE5F4 /* AnotherViewController.m */; };
 		4FE967D318A2929D00B2D93F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE967D218A2929D00B2D93F /* Foundation.framework */; };
 		4FE967D518A2929D00B2D93F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE967D418A2929D00B2D93F /* CoreGraphics.framework */; };
 		4FE967D718A2929D00B2D93F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE967D618A2929D00B2D93F /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F6C2E7A18B5141C007EE5F4 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		4F6C2E7C18B51441007EE5F4 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		4FE967CF18A2929D00B2D93F /* ViewControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE967D218A2929D00B2D93F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4FE967D418A2929D00B2D93F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +121,8 @@
 				4FE967E418A2929D00B2D93F /* Main.storyboard */,
 				4FE967E718A2929D00B2D93F /* ViewController.h */,
 				4FE967E818A2929D00B2D93F /* ViewController.m */,
+				4F6C2E7A18B5141C007EE5F4 /* AnotherViewController.h */,
+				4F6C2E7C18B51441007EE5F4 /* AnotherViewController.m */,
 				4FE967EA18A2929E00B2D93F /* Images.xcassets */,
 				4FE967D918A2929D00B2D93F /* Supporting Files */,
 			);
@@ -199,6 +205,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Janusz Chudzynski";
 				TargetAttributes = {
+					4FE967CE18A2929D00B2D93F = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					4FE967EF18A2929E00B2D93F = {
 						TestTargetID = 4FE967CE18A2929D00B2D93F;
 					};
@@ -229,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE967EB18A2929E00B2D93F /* Images.xcassets in Resources */,
+				4F6C2E7B18B5141C007EE5F4 /* AnotherViewController.h in Resources */,
 				4FE967DD18A2929D00B2D93F /* InfoPlist.strings in Resources */,
 				4FE967E618A2929D00B2D93F /* Main.storyboard in Resources */,
 			);
@@ -251,6 +265,7 @@
 			files = (
 				4FE967E918A2929D00B2D93F /* ViewController.m in Sources */,
 				4FE967E318A2929D00B2D93F /* AppDelegate.m in Sources */,
+				4F6C2E7D18B51441007EE5F4 /* AnotherViewController.m in Sources */,
 				4FE967DF18A2929D00B2D93F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +475,7 @@
 				4FE9680318A2929E00B2D93F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FE9680418A2929E00B2D93F /* Build configuration list for PBXNativeTarget "ViewControllerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +484,7 @@
 				4FE9680618A2929E00B2D93F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

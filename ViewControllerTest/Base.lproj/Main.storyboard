@@ -32,9 +32,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIB-b6-2yn">
-                                <rect key="frame" x="137" y="486" width="46" height="30"/>
+                                <rect key="frame" x="80" y="269" width="161" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Present View Controller">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="166" y="41"/>
         </scene>
-        <!--View Controller-->
+        <!--Another View Controller-->
         <scene sceneID="r8X-Gs-xAL">
             <objects>
-                <viewController id="tFo-Es-StD" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="tFo-Es-StD" customClass="AnotherViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oXg-YQ-PC3"/>
                         <viewControllerLayoutGuide type="bottom" id="ry4-om-zTc"/>
@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bfz-I5-6vc" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="624" y="35"/>
+            <point key="canvasLocation" x="614" y="41"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
